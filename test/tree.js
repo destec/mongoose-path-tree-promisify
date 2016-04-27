@@ -3,7 +3,7 @@ var Mongoose = require('mongoose');
 var Promise = require('bluebird');
 var Tree = require('../lib/tree');
 
-const process = require('process');
+var process = require('process');
 var shortId = require('shortid');
 var should = require('chai').should();
 
