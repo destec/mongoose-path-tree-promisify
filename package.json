@@ -1,0 +1,40 @@
+{
+  "name": "mongoose-path-tree-promisify",
+  "version": "0.1.1",
+  "description": "The promisified version of materialized path hierarchy for mongoose with reparent option",
+  "main": "index.js",
+  "scripts": {
+    "test": "MONGOOSE_TREE_SHORTID=1 ./node_modules/.bin/mocha && MONGOOSE_TREE_SHORTID=0 ./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/destec/mongooose-path-tree-promisify.git"
+  },
+  "keywords": [
+    "mongoose",
+    "materialized",
+    "path",
+    "tree",
+    "mongodb",
+    "promise",
+    "promisify"
+  ],
+  "author": "Destec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/destec/mongooose-path-tree-promisify/issues"
+  },
+  "homepage": "https://github.com/destec/mongooose-path-tree-promisify#readme",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "mongoose": "^4.4.13",
+    "stream-worker": "^1.0.1"
+  },
+  "devDependencies": {
+    "lodash": "^4.8.2",
+    "mocha": "^2.4.5",
+    "shortid": "^2.2.6",
+    "should": "^8.3.0",
+    "chai": "^3.5.0"
+  }
+}
