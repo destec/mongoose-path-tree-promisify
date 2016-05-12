@@ -1,6 +1,6 @@
 {
   "name": "mongoose-path-tree-promisify",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "The promisified version of materialized path hierarchy for mongoose with reparent option",
   "main": "index.js",
   "scripts": {
