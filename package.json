@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/destec/mongooose-path-tree-promisify.git"
+    "url": "git+https://github.com/destec/mongoose-path-tree-promisify.git"
   },
   "keywords": [
     "mongoose",
@@ -22,9 +22,9 @@
   "author": "Destec",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/destec/mongooose-path-tree-promisify/issues"
+    "url": "https://github.com/destec/mongoose-path-tree-promisify/issues"
   },
-  "homepage": "https://github.com/destec/mongooose-path-tree-promisify#readme",
+  "homepage": "https://github.com/destec/mongoose-path-tree-promisify#readme",
   "dependencies": {
     "bluebird": "^3.3.5",
     "mongoose": "^4.4.13",
